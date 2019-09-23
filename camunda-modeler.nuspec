@@ -14,15 +14,15 @@ Besides the visual modeling, Camunda Modeler also allows you to edit all propert
 Camunda Modeler leverages bpmn.io, which is probably the most awesome modeling framework in the known universe.
     </description>
     <projectUrl>https://camunda.org/features/modeler/</projectUrl>
-    <packageSourceUrl>https://github.com/Tervis-Tumbler/chocolateyautomaticpackages/tree/master/camunda-modeler</packageSourceUrl>
+    <packageSourceUrl>https://github.com/staylorx/chocolatey_camunda-modeler</packageSourceUrl>
     <projectSourceUrl>https://github.com/camunda/camunda-modeler</projectSourceUrl>
-    <docsUrl>https://docs.camunda.org/manual/7.5/modeler/</docsUrl>
+    <docsUrl>https://docs.camunda.org/manual/latest/</docsUrl>
     <tags>camunda bpmn modeler</tags>
     <licenseUrl>https://github.com/camunda/camunda-modeler/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
     </dependencies>
-    <iconUrl>http://camunda.com/img/camunda/icon.png</iconUrl>
+    <iconUrl>https://camunda.com/img/camunda-logo-social.png</iconUrl>
     <releaseNotes>https://blog.camunda.org/tags/release-note/</releaseNotes>
   </metadata>
 </package>
