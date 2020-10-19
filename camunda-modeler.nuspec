@@ -22,7 +22,7 @@ Camunda Modeler leverages bpmn.io, which is probably the most awesome modeling f
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
     </dependencies>
-    <iconUrl>https://camunda.com/img/camunda-logo-social.png</iconUrl>
+    <iconUrl>https://camunda.com/wp-content/uploads//2020/05/modeler.svg</iconUrl>
     <releaseNotes>https://blog.camunda.org/tags/release-note/</releaseNotes>
   </metadata>
 </package>
