@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop'
 
-$PackageName = 'camunda-modeler'
-$url32       = 'https://downloads.camunda.cloud/release/camunda-modeler/4.2.0/camunda-modeler-4.2.0-win-ia32.zip'
-$url64       = 'https://downloads.camunda.cloud/release/camunda-modeler/4.2.0/camunda-modeler-4.2.0-win-x64.zip'
-$checksum32  = '91A02C3D0BDDC27D9B9255970B0EB45C2D8703078596C0020C4D6A5D34614152'
-$checksum64  = '9A15424819D408D1C58FD8245FEDE7675CC0B1A88CBC1C10911B1E6AB434724B'
+$packageName = 'camunda-modeler'
+$url32       = 'https://downloads.camunda.cloud/release/camunda-modeler/4.6.0/camunda-modeler-4.6.0-win-ia32.zip'
+$url64       = 'https://downloads.camunda.cloud/release/camunda-modeler/4.6.0/camunda-modeler-4.6.0-win-x64.zip'
+$checksum32  = '81EAD04CF2AFB6DD7D7489ED23DF5CB093BF985C3672DE405429AB5DCE326D0E'
+$checksum64  = 'F2AD7C275D2FEBF0DA162B3E109F07B507D80B3E45970860A9B5F4B6142AB5AD'
 
 $packageArgs = @{
   packageName    = $packageName
@@ -17,3 +17,5 @@ $packageArgs = @{
   unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
 }
 Install-ChocolateyZipPackage @packageArgs
+
+
