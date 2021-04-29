@@ -1,5 +1,9 @@
 # Camunda Modeler
 
+## Licenses and Ownership
+
+All product names, logos, brands, trademarks and registered trademarks are property of their respective owners. The use of the Camunda modeler icon and logo are to support the hosting of the the package and do not imply ownership or endorsement.
+
 ## Where is the Binary?
 
 This installs the Camunda Modeler into the `C:\ProgramData\chocolatey\lib\camunda-modeler` folder.
